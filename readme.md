@@ -50,7 +50,7 @@ https://cassandra.apache.org/_/index.html ==>
 
 **CAP (Brewer’s) Theorem**
 
-**<img src="img/3vQxw_H0acAOG_c9dDr8iiU9ymKIxCtYm7hDZ7_PL9vFioTndVCFouenoveVjJ7VzZIjDto6AMvrGz3FJv44jkMGKt5gOdYqODbkmNBvfZud0Ur8XIFAK0aD76nwa8v4Efzi8CrBZNhgOd6CDPUpjr0.png" alt="img" style="zoom:50%;" />**
+**<img src="img/3vQxw_H0acAOG_c9dDr8iiU9ymKIxCtYm7hDZ7_PL9vFioTndVCFouenoveVjJ7VzZIjDto6AMvrGz3FJv44jkMGKt5gOdYqODbkmNBvfZud0Ur8XIFAK0aD76nwa8v4Efzi8CrBZNhgOd6CDPUpjr0.png" alt="img" width=50% />**
 
 
 
