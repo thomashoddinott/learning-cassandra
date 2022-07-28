@@ -327,14 +327,11 @@ Where are TTLs useful?
 
 After TTLs expire, values do not revert to any previous value. They are set to null.
 
-## [Apache Cassandra - Tutorial 11 - CQL - UUIDs and Counters](https://www.youtube.com/watch?v=7fL4AZ8gsug&list=PLalrWAGybpB-L1PGA-NfFu2uiWHEsdscD&index=11)
+## [Apache Cassandra - Tutorial 11 - CQL - UUIDs and Counters](https://www.youtube.com/watch?v=7fL4AZ8gsug&list=PLalrWAGybpB-L1PGA-NfFu2uiWHEsdscD&index=11)
 
 Cassandra has [2 forms of UUID](https://docs.datastax.com/en/cql-oss/3.3/cql/cql_reference/uuid_type_r.html):
 
-1. UUID
-2. Timeuuid
-
-1)
+1) **UUID**
 
 ```cql
 CREATE TABLE employee_by_uuid (id uuid PRIMARY KEY, first_name text, last_name text);
@@ -345,7 +342,7 @@ INSERT INTO employee_by_uuid (id, first_name, last_name)
 VALUES (uuid(), ‘tom’, ‘dunne’);
 ```
 
-2)
+2) **Timeuuid**
 
 ```cql
 CREATE TABLE employee_by_timeuuid (id timeuuid PRIMARY KEY, first_name text, last_name text);
